@@ -30,7 +30,7 @@ ui <- page_sidebar(
   ),
   
   layout_column_wrap(
-    width = 1/2,
+    width = 1,
     
     card(
       card_header("Total Sales Revenue"),
