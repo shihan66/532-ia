@@ -17,6 +17,15 @@ This repository contains an individual R Shiny implementation of the Chocolate S
 
 ## Get Started
 
+### Clone the Repository
+
+Clone the repo and follow the steps below to run the dashboard locally:
+
+```bash
+git clone https://github.com/shihan66/532-ia.git
+cd 532-ia/
+```
+
 ### Install packages
 
 Open R or RStudio and run:
