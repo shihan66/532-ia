@@ -8,13 +8,6 @@ library(DT)
 # Load data
 sales <- read_csv("data/chocolate_sales_clean.csv")
 
-# ---- IMPORTANT ----
-# Replace these column names with your actual dataset columns if needed.
-# Example assumptions:
-# country column: country
-# year column: year
-# sales/revenue column: sales_amount
-
 ui <- page_sidebar(
   title = "Chocolate Sales Analyser",
   
