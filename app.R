@@ -29,18 +29,30 @@ ui <- page_sidebar(
     )
   ),
   
-  layout_column_wrap(
-    width = 1,
-    
+  layout_columns(
     card(
       card_header("Total Sales Revenue"),
-      h2(textOutput("total_sales"))
+      div(
+        style = "padding: 16px 24px 20px 24px;",
+        div(
+          style = "font-size:32px; font-weight:600;",
+          textOutput("total_sales")
+        )
+      ),
+      full_screen = FALSE
     ),
     
     card(
       card_header("Filtered Rows"),
-      h2(textOutput("row_count"))
-    )
+      div(
+        style = "padding: 16px 24px 20px 24px;",
+        div(
+          style = "font-size:32px; font-weight:600;",
+          textOutput("row_count")
+        )
+      )
+    ),
+    full_screen = FALSE
   ),
   
   card(
