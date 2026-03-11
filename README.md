@@ -1,6 +1,6 @@
 # Chocolate Sales Analyser (R Shiny)
 
-This repository contains an individual R Shiny implementation of the Chocolate Sales Analyser dashboard. It is adapted from our group project, which was originally built in Shiny for Python.
+This repository contains an individual R Shiny implementation of the Chocolate Sales Analyser dashboard. It is adapted from our [group project](https://github.com/UBC-MDS/DSCI-532_2026_17_chocosales-analyser), which was originally built in Shiny for Python.
 
 ## Features
 
@@ -12,7 +12,8 @@ This repository contains an individual R Shiny implementation of the Chocolate S
 - Data table preview
 
 ## Live App
-[Deployed app link]()
+
+[Deployed app link](https://019cdf13-75d6-a5f7-214a-60645e573ba5.share.connect.posit.cloud/)
 
 ## Get Started
 
